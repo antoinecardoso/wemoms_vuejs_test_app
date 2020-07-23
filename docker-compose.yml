@@ -1,0 +1,9 @@
+version: '3.2' 
+services:
+  vuejs:
+    image: nonjosh/vue-cli
+    command: yarn serve
+    volumes:
+      - .:/app
+    ports:
+      - "8080:8080"
