@@ -7,7 +7,7 @@ docker-compose run --rm vuejs yarn install
 
 ### Compiles and hot-reloads for development
 ```
-docker-compose run --rm vuejs yarn serve OR docker-compose up
+docker-compose up (opens 8080 port in locahost)
 ```
 
 ### Compiles and minifies for production
